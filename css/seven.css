@@ -1,0 +1,141 @@
+/*---------------页面7-----------------*/
+.se_wrap{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0%;
+}
+.se_wrap img{
+	position: absolute;
+}
+.se_title{
+	width: 67%;
+	top: 7%;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+    opacity: 0;
+}
+.se_biaoti{
+	width: 99%;
+	position: absolute;
+	top: 16%;
+	text-align: center;
+	color: white;
+    opacity: 0;
+}
+.se_fan{
+	width: 100%;
+	height: 100%;
+}
+.se_fan img:nth-child(1){
+	width: 22%;
+	top: 356px;
+    left: 350px;
+    -webkit-animation:30s se2 infinite;
+}
+.se_fan img:nth-child(2){
+    width: 28px;
+    top: 6%;
+    left: 5%;
+    -webkit-animation:50s se2 infinite;
+}
+.se_fan img:nth-child(3){
+    width: 21%;
+    top: 89%;
+    left: -14%;
+    -webkit-animation:40s se2 infinite;
+}
+.se_fan img:nth-child(4){
+    width: 21%;
+    top: 28%;
+    left: 90%;
+    -webkit-animation:10s se2 infinite;
+}
+.se_fan img:nth-child(5){
+    width: 30%;
+    top: 36%;
+    left: -20%;
+    -webkit-animation:30s se2 infinite;
+}
+.se_fan img:nth-child(6){
+    width: 23px;
+    top: 90%;
+    left: 80%;
+    -webkit-animation:60s se2 infinite;
+}
+@-webkit-keyframes se2{
+    0%{-webkit-transform:translate3d(0px,0px,10px);}
+    25%{-webkit-transform:translate3d(20px,20px,30px);}
+    50%{-webkit-transform:translate3d(50px,40px,25px);}
+    75%{-webkit-transform:translate3d(20px,20px,20px);}
+    100%{-webkit-transform:translate3d(0px,0px,10px);}
+}
+.se_s{
+	width: 100%;
+    height: 67.51874%;
+    position: absolute;
+    top: 24.485757%;
+}
+.se_ss{
+	width: 53.4%;
+	height: 100%;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin: 0 auto;
+	overflow: hidden;
+    opacity: 0;
+}
+/*js获取高度*/
+.se_ss img{
+	width: 100%;
+}
+
+.se_wo1{
+    position: absolute;
+    top: 14.177%;
+    left: 29.33333%;
+    color: white;
+    width: 220px; 
+    opacity: 0;
+}
+.se_wo11{
+    -webkit-animation:smove1 1s both ;
+      
+}
+.se_wo2{
+	width: 67.73333%;
+    height: 8.15348%;
+    position: absolute;
+    left: 4%;
+    top: 47.96%;
+    text-align: right;
+    color: white;
+    opacity: 0;
+}
+.se_wo22{
+    -webkit-animation:smove2 1s both;
+}
+.se_wo3{
+	width: 55.733333%;
+    height: 8.15348%;
+    position: absolute;
+    top: 80.8153%;
+    left: 32%;;
+    color: white;
+    opacity: 0;
+}
+
+@-webkit-keyframes smove1{
+     0%{-webkit-transform:translate3d(100%,0,0);}
+
+     100%{-webkit-transform:translate3d(0,0,0);opacity: 1;}
+}
+@-webkit-keyframes smove2{
+     0%{-webkit-transform:translate3d(-70%,0,0);}
+
+     100%{-webkit-transform:translate3d(0,0,0);opacity: 1;}
+}
